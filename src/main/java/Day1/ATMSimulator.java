@@ -4,8 +4,9 @@ import java.util.*;
 
 
 public class ATMSimulator {
+    public static int accountbalance;
     static Scanner sc = new Scanner(System.in);
-    static int accountBal;
+    public static int accountBal;
     public void currentBalanceInputFromUser(){
         System.out.println("Please enter your current balance:");
         accountBal = sc.nextInt();
